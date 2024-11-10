@@ -59,11 +59,7 @@ function handleReplyClick(replyId){
 function handleTweetBtnClick(){
     const tweetInput = document.getElementById('tweet-input')
 
-/*
-Challenge:
-1. No empty tweets!
-2. Clear the textarea after tweeting!
-*/
+
     if(tweetInput.value){
         tweetsData.unshift({
             handle: `@Scrimba`,
