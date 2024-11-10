@@ -1,12 +1,6 @@
 import { tweetsData } from './data.js'
 import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 
-/*
-Challenge:
-3. We could improve index.js by moving one line
-   of code to a better position. Find it and move it!
-*/
-
 document.addEventListener('click', function(e){
     if(e.target.dataset.like){
        handleLikeClick(e.target.dataset.like) 
